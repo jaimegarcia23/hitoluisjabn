@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/selectCharacterTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Character"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <!-- Botón para Warrior -->
+    <Button
+        android:id="@+id/warriorButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Warrior"
+        app:layout_constraintTop_toBottomOf="@id/selectCharacterTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Botón para Mage -->
+    <Button
+        android:id="@+id/mageButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Mage"
+        app:layout_constraintTop_toBottomOf="@id/warriorButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Botón para Gunner -->
+    <Button
+        android:id="@+id/gunnerButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Gunner"
+        app:layout_constraintTop_toBottomOf="@id/mageButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Botón para Sorcerer -->
+    <Button
+        android:id="@+id/sorcererButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Sorcerer"
+        app:layout_constraintTop_toBottomOf="@id/gunnerButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Botón para confirmar selección -->
+    <Button
+        android:id="@+id/confirmSelectionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Selection"
+        app:layout_constraintTop_toBottomOf="@id/sorcererButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

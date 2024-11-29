@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- EditText para ingresar el nombre del jugador -->
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduce tu nombre"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"
+        android:inputType="text" />
+
+    <!-- Botón para iniciar el juego -->
+    <Button
+        android:id="@+id/buttonStartGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Juego"
+        android:layout_marginBottom="16dp"
+        android:textSize="18sp" />
+
+    <!-- Botón para contactar -->
+    <Button
+        android:id="@+id/buttonContactUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contáctanos"
+        android:layout_marginBottom="16dp"
+        android:textSize="18sp" />
+
+    <!-- Botón para ver el ranking -->
+    <Button
+        android:id="@+id/buttonViewRanking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Ranking"
+        android:textSize="18sp" />
+
+</LinearLayout>

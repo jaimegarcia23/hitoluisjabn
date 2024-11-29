@@ -1,0 +1,15 @@
+{
+  "characters": [
+    {
+      "name": "Warrior",
+      "level": 1,
+      "health": 100
+    },
+    {
+      "name": "Mage",
+      "level": 1,
+      "health": 80
+    }
+  ],
+  "scores": []
+}
